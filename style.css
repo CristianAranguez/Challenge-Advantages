@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  max-width: 100%;
+  max-height: 100%;
+  font-family: "Lato", sans-serif;
+  font-weight: var(--thin);
+}
+
+.description__section {
+display: flex;
+flex-direction: column;
+background: var(--blue);
+justify-content: center;
+align-items: center;
+color: rgb(3, 3, 3);
+padding: 8rem 0;
+}
+
+.description__section h2 {
+font-size: 3rem;
+text-align: center;
+text-transform: uppercase;
+margin-bottom: 2rem;
+}
+
+.description__section h3 {
+font-size: 1.5rem;
+text-align: center;
+font-weight: var(--thin);
+max-width: 300px;
+margin-bottom: 5rem;
+}
+
+.description__section h4 {
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    }
+
+.description__section h5 {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    }    
+
+.info-card {
+width: 40%;
+margin-bottom: 2rem;
+}
+
+.card {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 5rem 0;
+padding: 20px;
+}
+
+.card p {
+max-width: 300px;
+text-align: center;
+font-size: 1.5rem;
+font-weight: var(--thin);
+}
+
+@media (min-width: 1024px) {
+
+.card__container {
+display: flex;
+gap: 15rem;
+}
+
+.description__section h3 {
+max-width: 400px;
+margin-top: 2rem;
+}
+
+.cart__container {
+max-width: 1000px;
+}
+}
